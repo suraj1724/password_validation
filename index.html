@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password_Attempt</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./sass/style.css">
+</head>
+<body >
+    <div class="container-fluid d-flex justify-content-center align-item-center " style="margin-top:200px;">
+
+<div class="card" style="width: 370px ;">
+    <div class="card-header">
+        <h3>Login</h3>
+    </div>
+    <div class="card-body">
+        <label for="Username"><b>Username</b></label>
+        <input type="text" onkeyup="userid()" class="form-control mb-2" placeholder="Username@"  id="usern">
+        <h4 id="msg"></h4>
+        <label for="password" class=""><b>Password</b></label>
+        <input type="password" class="form-control mb-2" id="passn">
+        <label for="" id="invalid"></label>
+    </div>
+    <div class="card-footer">
+        <button class="btn btn-dark" onclick="loginclick()">Login</button>
+    </div>
+</div>
+    </div>
+
+
+
+    <pre class="text-primary"> 
+        <h6>Use This UserName And Password to check </h6>
+        username:"suraj@1724",
+        password:"@1724"</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
