@@ -1,7 +1,6 @@
 
 var catogories={
-    username:"suraj@1724",
-    password:"@1724"
+  
 
 }
 var msge=document.getElementById("msg");
